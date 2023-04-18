@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Doctor Schedule Page</title>
+<style >
+    *{
+      margin: 0px;
+      padding: 0px;
+     }
+     
+     body
+     {
+      Background:url("back.jpg");
+      background-size: cover;
+     }
+     
+    h1
+    {
+        color:blue;	
+        text-align: centre;
+       height: 75px;
+       margin-top:20px;		
+       margin-left:450px;
+       font-size: 50px;
+      }
+      
+      .box
+      {
+      margin-top: 100px;
+      background-color: skyblue;
+      display: inline-block;
+      padding: 20px;
+      margin-left: 100px;
+      border-radius: 25px;
+      height: 300px;
+      }
+     
+      .box label
+      {
+       color: blue;
+      }
+      
+      .box input
+      {
+       background-color: white;
+       border-radius: 5px;
+      }
+      
+      #bt{
+          padding: 7px;
+          width: 75px;
+          color: white;
+          border-radius: 5px;
+          background-color: blue;
+         }
+         
+         #link
+         {
+         color: blue;
+         }
+         
+         h3
+         {
+         color: red;
+         margin-left: 25px;
+         }
+</style>
+</head>
+<body>
+       <form action="DBooking" method="post">
+         <h1 >OM HOSPITAL</h1><hr>	
+         <div class="box">
+        <h3>TODAY'S WORK</h3><br>
+        <label>Username: </label>
+        <input type="text" placeholder="enter username" required name="n"><br><br>
+        <label>Date: </label>
+        <input type="date" required name="date"><br><br>
+        <label>In-Time: </label>
+        <input type="time" required name="in"><br><br>
+        <label>Out-Time: </label>
+        <input type="time" required name="out"><br><br>
+        <label>Number of Patient checked: </label>
+        <input type="text" required name="pc"><br><br>
+        <input type="submit" id="bt" value="DONE">
+        </div>
+     </form>
+</body>
+</html>

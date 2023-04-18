@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Doctor Registration Page</title>
+<style >
+    *{
+      margin: 0px;
+      padding: 0px;
+     }
+     body
+     {
+      Background:url("back.jpg");
+      background-size: cover;
+     }
+    h1{
+      margin-top: 20px;
+      margin-left: 100px;
+       color: red;
+       text-align: centre;
+       height: 75px;
+       font-size: 50px;
+      }
+      
+      h3{
+         color: blue;
+         margin-left: 75px;
+         }
+      #bt{
+          padding: 5px;
+          width: 80px;
+          color: white;
+          border-radius: 5px;
+          background-color: blue;
+         }
+      .box
+      {
+      margin-top: 20px;
+      background-color: skyblue;
+      display: inline-block;
+      padding: 25px;
+      margin-left: 100px;
+      border-radius: 25px;
+      
+      }
+      .box label
+      {
+       color: blue;
+      }
+      .box input
+      {
+       background-color: white;
+       border-radius: 5px;
+      }
+</style>
+</head>
+<body>
+    <form action="DoctordataControl" method="post">
+     <h1>OM HOSPITAL</h1>
+      <div class="box">
+        <h3>DOCTOR REGISTER</h3><br>
+        <label>Name: </label>
+        <input type="text" placeholder="enter username" required name="n"><br><br>
+        <label>Email: </label>
+        <input type="email" placeholder="enter email" required name="em"><br><br>
+        <label>Mobile no: </label>
+        <input type="text" placeholder="enter mobile number" required name="mob"><br><br>
+        <label>Date of Birth: </label>
+        <input type="date" name="dob" required><br><br>
+        <label>Gender: </label>
+        <label>Male </label>
+        <input type="radio" value="male" name="gen">
+        <label>Female </label>
+        <input type="radio" value="female"  name="gen"><br><br>
+        <label>Qualification: </label>
+        <input type="text" placeholder="enter qualification" required name="deg"><br><br>
+        <label>Year of Experiance: </label>
+        <input type="text" placeholder="enter experiance" required name="yoe"><br><br>
+        <label>Salary: </label>
+        <input type="text" placeholder="enter salary" required name="sal"><br><br>
+        <label>Password: </label>
+        <input type="password" placeholder="enter password" required name="pass"><br><br>
+        <a href="DLogin.html" id="link"><input type="submit" id="bt" value="Register"></a>
+     </div>
+     </form>
+</body>
+</html>

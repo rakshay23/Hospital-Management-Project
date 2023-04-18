@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Login Page</title>
+<style >
+    *{
+      margin: 0px;
+      padding: 0px;
+     }
+     body
+     {
+      Background:url("back.jpg");
+      background-size: cover;
+     }
+    h1{
+        color:blue;	
+        text-align: centre;
+       height: 75px;
+       margin-top:20px;		
+       margin-left:450px;
+       font-size: 50px;
+      }
+      .box
+      {
+      margin-top: 100px;
+      background-color: skyblue;
+      display: inline-block;
+      padding: 20px;
+      margin-left: 100px;
+      border-radius: 25px;
+      height: 200px;
+      }
+     
+      .box label
+      {
+       color: blue;
+      }
+      .box input
+      {
+       background-color: white;
+       border-radius: 5px;
+      }
+      #bt{
+          padding: 7px;
+          width: 75px;
+          color: white;
+          border-radius: 5px;
+          background-color: blue;
+         }
+         #link
+         {
+         color: blue;
+         }
+         h3{
+         color: blue;
+         margin-left: 60px;
+         }
+</style>
+</head>
+<body>
+    <form action="AdminLoginControl" method="post">
+       <h1 >OM HOSPITAL</h1><hr>	
+         <div class="box">
+        <h3>ADMIN LOGIN</h3><br>
+        <label>Name: </label>
+        <input type="text" placeholder="enter username" required name="n"><br><br>
+        <label>Password: </label>
+        <input type="password" placeholder="enter password" required name="pass"><br><br>
+        <input type="submit" id="bt" value="LOGIN"><br><br>
+        <a href="AdminRegister.html" id="link">Create an Account</a>
+        </div>
+     </form>
+</body>
+</html>

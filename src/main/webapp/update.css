@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+*{
+      margin: 0px;
+      padding: 0px;
+     }
+     body
+     {
+      Background:url("back.jpg");
+      background-size: cover;
+     }
+     
+     table{
+        background-color: yellow;
+        border-collapse: collapse;
+        margin-left: 500px;
+        
+        margin-top: 20px;
+        
+        border-radius: 10px;
+     }
+     
+     table tr td{
+     padding: 10px;
+     }
+     
+     
+     #bt{
+          padding: 10px;
+          width: 100px;
+          color: white;
+          border-radius: 5px;
+          background-color: blue;
+          margin-top: 20px;
+          margin-left: 20px;
+         }
+         
+         h1{
+        color:red;	
+        text-align: centre;
+       height: 75px;
+       margin-top:20px;		
+       margin-left:450px;
+       font-size: 50px;
+      }
